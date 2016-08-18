@@ -1,8 +1,22 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #eee;
 }
-
-a {
-  color: #00B7FF;
+.form-login{
+    margin: 7em 0 0 0;
+    background: #FFF;
+    padding: 1.2em;
+    float: left;
+}
+.form-login h2{
+    font-size: 20px;
+    margin: 0;
+}
+.panel{
+    background: #FFF;
+    margin: 2em 0 0 0;
+    padding: 1.2em;
+}
+.panel h2{
+    font-size: 20px;
+    margin: 0;
 }
