@@ -1,0 +1,22 @@
+extends layout
+
+block content
+    div(class="row")
+        div(class="col s7 offset-s2")
+            div(class="panel center")
+                a(href="/tasks") List of tasks
+    div(class="row")
+        div(class="col s7 offset-s2")
+            div(class="panel center")
+                h2 Task - task.name
+                table
+                    thead
+                        tr
+                            th #
+                            th Name
+                            th Done
+                    tbody
+                        tr
+                            td=task.id
+                            td=task.name
+                            td=task.done

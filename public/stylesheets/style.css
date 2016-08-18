@@ -1,12 +1,21 @@
 body {
   background: #eee;
 }
-.form-login{
-    margin: 7em 0 0 0;
+.form{
     background: #FFF;
     padding: 1.2em;
     float: left;
+    width: 100%;
+    margin: 2em 0 0 0;
 }
+.form-login{
+    margin: 10em 0 0 0;
+    background: #FFF;
+    padding: 1.2em;
+    float: left;
+    width: 100%;
+}
+.form h2,
 .form-login h2{
     font-size: 20px;
     margin: 0;
